@@ -1,8 +1,33 @@
-# React + Vite
+# <div align="center"> PROYECTO UNIDAD 8 </div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+### <strong> BIENVENIDO </strong>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  <img src="https://media2.giphy.com/media/uurtMtTKqkJda4dk8Y/200w.webp?cid=ecf05e47ipyhr4vjtllb1xiqwtxh39uto775myk2rj700nth&rid=200w.webp&ct=g" title="logo" alt="logo" width="250" height="250" />&nbsp;
+</div>
+
+### <div align="center">BACKEND</div>
+
+# Empezando
+
+1. Instalar paquetes
+
+   ```bash
+   npm i
+   ```
+
+2. Ejecute el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+# Aplicación
+
+Hola, he desarrollado una pequeña parte de la aplicación de Twitter en React haciendo uso de TailwindCss, y este es el resultado.
+
+<div align="center">
+    <img src="https://ibb.co/q0CN6vd" title="logo" alt="logo" width="250" height="250" />
+</div>
