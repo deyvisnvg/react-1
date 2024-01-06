@@ -4,27 +4,13 @@ import { Button } from "../../components";
 
 export function Card({ name, username, initialIsFollowing }) {
     const [isFollowing, setIsFollowing] = useState(initialIsFollowing);
-    const text = isFollowing ? "Siguiendo" : "Seguir";
-    const textAlterno = "Dejar de seguir";
+    const [isTextState, setIsTextState] = useState(false);
+
+    const text = !isFollowing ? "Seguir" : isTextState ? "Dejar de Seguir" : "Siguiendo";
 
     const handleClick = () => {
         setIsFollowing(!isFollowing);
     }
-
-    const buttonStyle = classNames(
-        "rounded-2xl py-2",
-        {
-            "border-2 px-10 text-white hover:text-red-600 hover:border-red-600": isFollowing,
-            "bg-white px-5 hover:bg-gray-200": !isFollowing,
-        }
-    )
-    
-    // const textButton = classNames(
-    //     "",
-    //     {
-    //         "hover:hidden": isFollowing,
-    //     }
-    // )
 
     return (
         <>
@@ -40,10 +26,10 @@ export function Card({ name, username, initialIsFollowing }) {
                 <aside>
                     <Button
                         handleClick={handleClick}
-                        buttonStyle={buttonStyle}
+                        isFollowing={isFollowing}
+                        setIsTextState={setIsTextState}
                     >
                         <span>{text}</span>
-                        <span className="hidden">{textAlterno}</span>
                     </Button>
                 </aside>
             </article >
