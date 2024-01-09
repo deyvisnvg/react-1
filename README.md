@@ -1,4 +1,4 @@
-# <div align="center"> PROYECTO UNIDAD 8 </div>
+# <div align="center"> CLON TWITTER (1ERA PARTE) </div>
 
  ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
@@ -29,5 +29,5 @@
 Hola, he desarrollado una pequeña parte de la aplicación de Twitter en React haciendo uso de TailwindCss, y este es el resultado.
 
 <div align="center">
-    <img src="https://ibb.co/q0CN6vd" title="logo" alt="logo" width="250" height="250" />
+    <img src="https://i.ibb.co/WD0kCL6/Screenshot-from-2024-01-04-13-36-33.png" title="logo" alt="logo" />
 </div>
